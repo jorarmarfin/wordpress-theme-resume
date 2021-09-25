@@ -61,7 +61,7 @@ get_header(); ?>
             <?=get_template_part( 'partials/card-about' )?>
             
 			<!-- Card - Resume -->
-            <?=get_template_part( 'partials/card-about' )?>
+            <?=get_template_part( 'partials/card-resume' )?>
             
 			<!-- Card - Works -->
             <?=get_template_part( 'partials/card-works' )?>

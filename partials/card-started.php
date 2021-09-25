@@ -19,26 +19,26 @@ $page  = jet_engine()->options_pages->registered_pages['my-resume'];
             <p>Web Designer</p>
             <p>Developer</p>
             <p>Freelancer</p>
+            <p>FullStack</p>
+            <p>DBA</p>
         </div>
     </div>
 
     <!-- profile socials -->
     <div class="social">
-        <a target="_blank" href="https://dribbble.com/"><span class="fa fa-dribbble"></span></a>
-        <a target="_blank" href="https://twitter.com/"><span class="fa fa-twitter"></span></a>
-        <a target="_blank" href="https://github.com/"><span class="fa fa-github"></span></a>
-        <a target="_blank" href="https://www.spotify.com/"><span class="fa fa-spotify"></span></a>
-        <a target="_blank" href="https://stackoverflow.com/"><span class="fa fa-stack-overflow"></span></a>
+        <a target="_blank" href="https://twitter.com/luiscamp2003"><span class="fa fa-twitter"></span></a>
+        <a target="_blank" href="https://github.com/jorarmarfin/"><span class="fa fa-github"></span></a>
+        <a target="_blank" href="https://www.linkedin.com/feed/"><span class="fa fa-linkedin"></span></a>
     </div>
     
     <!-- profile buttons -->
     <div class="lnks">
-        <a href="#" class="lnk">
-            <span class="text">Download CV</span>
+        <a href="<?=$page->get( 'archivo-pdf' )?>" class="lnk" target="_blank" download>
+            <span class="text">Descargar CV </span>
             <span class="ion ion-archive"></span>
         </a>
         <a href="#" class="lnk discover">
-            <span class="text">Contact Me</span>
+            <span class="text">Contactame</span>
             <span class="arrow"></span>
         </a>
     </div>
