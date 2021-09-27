@@ -20,12 +20,6 @@
 <div class="top-menu">
     <ul>
         <li class="active">
-            <a href="/">
-                <span class="icon ion-home"></span>
-                <span class="link">Home</span>
-            </a>
-        </li>
-        <li class="">
             <a href="#about-card">
                 <span class="icon ion-person"></span>
                 <span class="link">About</span>

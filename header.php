@@ -7,6 +7,10 @@
 	-->
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<title><?=wp_title()?></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="vCard & Resume Template" />
+	<meta name="keywords" content="vcard, resposnive, resume, personal, card, cv, cards, portfolio" />
+	<meta name="author" content="beshleyua" />
 	
 	<!--
 		Load Fonts
