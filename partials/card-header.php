@@ -1,14 +1,19 @@
 
+<?php
+$page  = jet_engine()->options_pages->registered_pages['my-resume'];
+?>
 <header class="header">
 
 <!-- header profile -->
 <div class="profile">
-    <div class="title">Ryan Adlard</div>
+    <div class="title"><?=$page->get( 'nombre-corto' )?></div>
     <div class="subtitle subtitle-typed">
         <div class="typing-title">
-            <p>Web Designer</p>
-            <p>Developer</p>
-            <p>Freelancer</p>
+            <?php 
+                foreach ($page->get( 'perfiles') as $key => $item) {
+                    echo '<p>'.$item['perfil'].'</p>';
+                }
+            ?>        
         </div>
     </div>
 </div>
