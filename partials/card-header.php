@@ -36,12 +36,12 @@ $page  = jet_engine()->options_pages->registered_pages['my-resume'];
                 <span class="link">Resume</span>
             </a>
         </li>
-        <li>
+        <!-- <li>
             <a href="#works-card">
                 <span class="icon ion-paintbrush"></span>
                 <span class="link">Works</span>
             </a>
-        </li>
+        </li> -->
         <li>
             <a href="#contacts-card">
                 <span class="icon ion-at"></span>
